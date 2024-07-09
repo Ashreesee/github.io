@@ -414,6 +414,36 @@ span{
     margin: auto;
 }
 
+/* Media Queries for Mobile */
+@media (max-width: 768px) {
+    .services h2 {
+        margin-bottom: 3rem;
+    }
+
+    .services-container {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .service-box {
+        height: auto;
+        margin: 1rem;
+    }
+
+    .service-box .service-info {
+        padding: 2rem;
+    }
+
+    .service-info h4 {
+        font-size: 2.4rem;
+        padding-bottom: 1rem;
+    }
+
+    .service-info p {
+        font-size: 1.4rem;
+        line-height: 1.5;
+    }
+}
 /* ******************project Section********************* */
 
 .project{
