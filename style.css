@@ -479,7 +479,28 @@ span{
     color: gold;
     font-size: 2rem;
 }
-
+/* Media Queries for Mobile */
+@media (max-width: 768px) {
+    .wrapper {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    .project-box img {
+        width: 15rem;
+    }
+    .project-item {
+        min-height: auto;
+        max-width: 100%;
+        margin: 1rem;
+        padding: 20px 30px;
+    }
+    .project-item h2 {
+        font-size: 2.2rem;
+    }
+    .project-item p {
+        font-size: 1.6rem;
+    }
+}
 
 /* ******************contact Section********************* */
 
